@@ -1,0 +1,15 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #5f9cff, #6be6c1);
+  font-family: 'Poppins', sans-serif;
+ overflow-x: hidden;
+}
+
+/* optional: scrollbar hide (just in case) */
+::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,55 @@
+.InfoBox{
+    text-align: center;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.weatherGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.MuiCard-root {
+  border-radius: 16px !important;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2) !important;
+  background: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(12px);
+  transition: 0.3s;
+}
+
+.MuiCard-root {
+  border-radius: 20px !important;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2) !important;
+}
+.MuiCard-root:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+.MuiCard-root {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+.MuiTypography-root {
+  color: #333 !important;
+}
+
+.InfoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
